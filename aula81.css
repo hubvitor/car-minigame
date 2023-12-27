@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+.painel {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("imagens/muro.jpg");
+}
+
+body {
+  background-image: url("imagens/calcada.jpeg");
+}
+
+button {
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  margin: 20px;
+  background: #004;
+  font-size: 1em;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.carro {
+  font-size: 3em;
+  width: 76px;
+  transform: scaleX(-1);
+  margin-bottom: 5px;
+}
+
+.veiculos {
+  background-image: url("imagens/rua.jpeg");
+}
+
+select {
+  width: 300px;
+  height: 100px;
+  font-size: 3em;
+  background: #fff;
+  margin-top: 100px;
+}
+
+#botoesFuncoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.estaAtivada {
+  background: #f44;
+}
+
+.ligado {
+  background: seagreen !important;
+}
+
+#turnCarro {
+  background: #f44;
+}
+
+.lembreteSalvarCarro {
+  background: #a00 !important;
+}
+
+#carro {
+  border-top: 5px solid green;
+  border-radius: 5px;
+}
